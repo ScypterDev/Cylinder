@@ -10,7 +10,32 @@
     <script src="js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <h1 style="text-align: center;" class="uk-margin-xlarge-top">Cylinder</h1>
+    <nav class="uk-navbar-container" uk-navbar>
+
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo">Cylinder</a>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Partners</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Scypter's Modifications</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Invite</a></li>
+            </ul>
+    
+        </div>
+    
+    </nav>
+
+    <div class="uk-alert-primary" uk-alert>
+        <a class="uk-alert-close" uk-close></a>
+        <p>Cylinder is still under development, don't buy premium since it is worthless for rightnow.</p>
+    </div>
+    <h1 style="text-align: center;" class="uk-margin-xlarge-top uk-heading-2xlarge">Cylinder</h1>
     <p style="text-align: center;">Your #1 multipurpose bot for LSPDFR servers</p>
 
     <div style="width: 50%; margin: auto; padding: 10px">
@@ -43,9 +68,20 @@
                 <div class="uk-accordion-content">
                     <ul>
                         <li>Ticketing system</li>
-                        <li>NameBadge &#169;</li>
+                        <li>HelpDesk System</li>
                         <li>Log manager</li>
                         <li>Support Team statistics</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#" style="text-align: center;">User Data</a>
+                <div class="uk-accordion-content">
+                    <ul>
+                        <li>Username and name history</li>
+                        <li>NameBadge &#169;</li>
+                        <li>Name censoring</li>
+                        <li>Total messages send</li>
                     </ul>
                 </div>
             </li>
